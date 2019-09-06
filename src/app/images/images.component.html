@@ -1,0 +1,11 @@
+<div class="container">
+  <h3>Here are the images you were looking for.</h3>
+
+  <div class="card col-md-3" *ngFor="let image of images">
+    <div class="card-body">
+      <div class="card-img">
+        <img class="img-fluid" [src]="image.thumbnailUrl" [alt]="image.title" />
+      </div>
+    </div>
+  </div>
+</div>
