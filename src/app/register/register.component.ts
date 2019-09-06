@@ -12,4 +12,7 @@ export class RegisterComponent implements OnInit {
   ngOnInit() {
   }
 
+  log(data){
+    console.log(data);
+  }
 }
